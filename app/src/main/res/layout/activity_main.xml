@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinhphu"
+    android:id="@+id/mDrawer"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_danhsach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_gravity="right|bottom"
+            android:src="@drawable/danhsach"
+            android:background="#717171"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_margin="5dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/logo"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"
+            android:layout_gravity="right|top"/>
+
+    </FrameLayout>
+<LinearLayout
+    android:background="#C4D8D8"
+    android:layout_width="230dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="left">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#343435"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Learn English Today!!"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#C363129C"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+
+    <ExpandableListView
+        android:id="@+id/expandable_listview"
+        android:layout_width="230dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+
+        android:dividerHeight="0.3dp"
+        android:divider="#000000"
+        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+        android:childDivider="#EDEEEF"
+        />
+
+</LinearLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

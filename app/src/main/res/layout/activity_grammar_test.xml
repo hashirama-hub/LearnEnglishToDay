@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GrammarTestActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#D6D6D6"
+        android:padding="10dp"
+        android:layout_weight="0.5">
+
+        <TextView
+            android:id="@+id/level_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="level A1"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:textColor="#000000"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/test_description_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:padding="5dp"
+            android:layout_toLeftOf="@+id/level_textview"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose the right answer."
+            android:layout_alignParentBottom="true"
+            android:paddingLeft="10dp"
+            android:textColor="#009688"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#FFDADA"
+        android:padding="10dp"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/question_counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1:"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/question_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is the first example of our Grammar Test."
+            android:layout_toRightOf="@id/question_counter"
+            android:padding="10dp"
+            android:textSize="20dp"/>
+
+        <RadioGroup
+            android:id="@+id/option_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/question_text"
+            android:padding="10dp"
+            android:layout_alignLeft="@+id/question_text">
+
+            <RadioButton
+                android:id="@+id/option_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="option_a"
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/option_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="option_b"
+                android:textSize="20dp"/>
+
+            <RadioButton
+                android:id="@+id/option_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="option_c"
+                android:textSize="20dp"/>
+
+
+        </RadioGroup>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#D6D6D6"
+        android:padding="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/test_points_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test Points:"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/current_test_average_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current Average:"
+            android:layout_below="@+id/test_points_textView"
+            android:padding="5dp"/>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/current_test_average_textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-1dp"
+            android:text="Submit" />
+
+    </RelativeLayout>
+</LinearLayout>

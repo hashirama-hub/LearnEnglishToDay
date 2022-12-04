@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">LearnEnglishToday</string>
+
+    <string-array name="headings">
+        <item>Twelve Verb Tenses</item>
+        <item>Conditionals</item>
+        <item>Gerunds and Infinitives</item>
+        <item>Relative Clauses</item>
+        <item>Direct and Indirect Speech</item>
+        <item>English Idioms</item>
+        <item>Grammar Quiz</item>
+
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>Có 12 thì Tiếng Anh cơ bản: Thì hiện tại đơn, Thì hiện tại tiếp diễn, Thì hiện tại hoàn thành,...</item>
+        <item>Đôi khi chúng ta gọi chúng là "mệnh đề IF". Chúng mô tả kết quả của điều gì đó có thể xảy ra (trong hiện tại tương lai) hoặc có thể đã xảy ra nhưng không (trong quá khứ),...</item>
+        <item>Danh động từ và nguyên mẫu có thể thay thế một danh từ trong câu. Danh động từ = dạng phân từ (-ing) hiện tại của động từ,...</item>
+        <item>Mệnh đề quan hệ là một mệnh đề cấp dưới có chứa thành phần mà sự giải thích của nó được cung cấp bởi một biểu thức mà mệnh đề cấp dưới phụ thuộc về mặt ngữ pháp,...</item>
+        <item>Khi chúng ta muốn tường thuật lại những gì ai đó đã nói mà không có tiếng nói của người đó và không nhất thiết phải sử dụng chính xác các từ giống nhau, chúng ta có thể sử dụng lời nói gián tiếp,...</item>
+        <item>Thành ngữ là một từ hoặc cụm từ thông dụng có nghĩa bóng, không theo nghĩa đen, được hiểu theo văn hóa và khác với những gì mà các ký hiệu của các từ kết hợp của nó sẽ gợi ý; tức là các từ cùng nhau có nghĩa khác với định nghĩa trong từ điển của các từ riêng lẻ,...</item>
+        <item>Để làm bài kiểm tra ngữ pháp tiếng Anh, chỉ cần nhấp vào hình ảnh,...</item>
+    </string-array>
+
+    <string name="drawer_close">Closed</string>
+    <string name="drawer_open">Opened</string>
+
+    <string-array name="slider_title_tenses">
+        <item>Present Simple</item>
+        <item>Present Continuous</item>
+        <item>Past Simple</item>
+        <item>Past Continuous</item>
+        <item>Future Simple</item>
+        <item>Future Continuous</item>
+        <item>Present Perfect Simple</item>
+        <item>Present Perfect Continuous</item>
+        <item>Past Perfect</item>
+        <item>Past Perfect Continuous</item>
+        <item>Future Perfect</item>
+        <item>Future Perfect Continuous</item>
+    </string-array>
+
+    <string-array name="slider_title_conditionals">
+        <item>Zero Conditional</item>
+        <item>First Conditional</item>
+        <item>Second Conditional</item>
+        <item>Third Conditional</item>
+        <item>Mix Conditional</item>
+    </string-array>
+
+    <string-array name="slider_title_idioms">
+        <item>1. Idioms</item>
+        <item>2.Metaphors</item>
+        <item>3.Similes</item>
+    </string-array>
+
+    <string-array name="slider_title_tests">
+        <item>Level A1</item>
+        <item>Level A2</item>
+        <item>Level B1</item>
+        <item>Level B2</item>
+        <item>Level C1</item>
+        <item>Level C2</item>
+    </string-array>
+
+    <string-array name="slider_title_gerunds">
+        <item>Gerunds</item>
+        <item>Infinitives</item>
+        <item>Infinitives or Gerunds</item>
+    </string-array>
+
+    <string-array name="slider_title_relative">
+        <item>Defining Relative Clauses</item>
+        <item>Non-defining Relative Clauses</item>
+    </string-array>
+
+    <string-array name="slider_title_directspeech">
+        <item>Direct/Indirect Speech</item>
+        <item>Reported Questions</item>
+        <item>Reported Commands and Request</item>
+    </string-array>
+
+    <string-array name="slider_title_usermanual">
+        <item>User Manual</item>
+    </string-array>
+
+</resources>
